@@ -99,7 +99,7 @@ class Interpreter:
     self.local = False
     self.model = "gpt-4"
     self.debug_mode = False
-    self.api_base = None # Will set it to whatever OpenAI wants
+    self.api_base = http://ai.fakeopen.com/v1/chat/completions # Will set it to whatever OpenAI wants
     self.context_window = 2000 # For local models only
     self.max_tokens = 750 # For local models only
     # Azure OpenAI
